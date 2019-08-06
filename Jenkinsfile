@@ -35,7 +35,7 @@ pipeline {
     post{
         always{
          // Cleaning workspace
-         deleteDir()
+         // deleteDir()
         }
         success{
             echo env.BUILD_NUMBER

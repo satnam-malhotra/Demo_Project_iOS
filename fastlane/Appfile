@@ -1,0 +1,8 @@
+app_identifier "com.3pillar.Jenkins" # The bundle identifier of your app
+apple_id "mohd.imran@3pillarglobal.com" # Your Apple email address
+
+itc_team_id "119516240" # iTunes Connect Team ID
+team_id "TMQ7PR2UWW" # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

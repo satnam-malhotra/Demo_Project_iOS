@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh './fastlane gym'
+                sh 'fastlane gym'
                 archiveArtifacts '**/*.ipa'
                 echo "Build stage passed"
             }

@@ -15,6 +15,5 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
   lane :beta do
     build_app(scheme: "Jenkins-Demo-App")
-    upload_to_testflight
   end
 end

@@ -11,12 +11,11 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Test stage passed"
-                sh 'cd fastlane'
             }
         }
         stage('Build') {
             steps {
-                sh 'fastlane gym'
+                sh '/Users/satnam.malhotra/.fastlane/bin/fastlane gym'
                 archiveArtifacts '**/*.ipa'
                 echo "Build stage passed"
             }
